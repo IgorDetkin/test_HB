@@ -1,0 +1,39 @@
+.input {
+    /* margin-bottom: 32px; */
+}
+
+.input__name {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    
+}
+
+.input__field {
+    margin: 8px 0;
+    outline: none;
+    padding: 16px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.input__sub-message {
+    /* visibility: hidden; */
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}

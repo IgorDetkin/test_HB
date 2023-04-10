@@ -1,0 +1,8 @@
+form {
+    padding: 96px 98px 92px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 32px;
+}

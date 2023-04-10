@@ -1,0 +1,29 @@
+.toggle {
+    display: flex;
+}
+
+.toggle__switcher {
+    width: 49px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../../images/toggle\ -on.svg');
+}
+
+.toggle__switcher_deactive {
+    background-image: url('../../../images/toggle\ -off.svg');
+}
+
+.toggle__field {
+    opacity: 0;
+}
+
+.toggle__name {
+    margin-left: 16px;
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #666666;
+}

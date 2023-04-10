@@ -1,0 +1,22 @@
+.checkbox {
+    display: flex;
+}
+
+.checkbox__field {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+
+
+.chechbox__name {
+    margin-left: 16px;
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
