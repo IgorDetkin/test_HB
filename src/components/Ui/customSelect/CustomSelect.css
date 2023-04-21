@@ -103,3 +103,12 @@
     color: #fff;
 }
 
+
+
+@media all and (min-width: 320px) and (max-width: 550px) {
+    .select {
+        height: 200px;
+    }
+}
+
+
