@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/test_HB/static/css/main.8d0ddf3d.css",
-    "main.js": "/test_HB/static/js/main.34d04149.js",
+    "main.css": "/test_HB/static/css/main.d60abf90.css",
+    "main.js": "/test_HB/static/js/main.68e8c825.js",
     "static/media/NotoSans.woff": "/test_HB/static/media/NotoSans.bc98a8af8d08ee2cad9c.woff",
     "index.html": "/test_HB/index.html",
-    "static/media/toggle -off.svg": "/test_HB/static/media/toggle -off.31b9493d8c3e22f13e79.svg",
-    "static/media/toggle -on.svg": "/test_HB/static/media/toggle -on.d292e83a1fe8708a070c.svg",
     "static/media/checkbox_active.svg": "/test_HB/static/media/checkbox_active.92b7d3f10ae636e99e0a.svg",
     "static/media/arrow_select.svg": "/test_HB/static/media/arrow_select.8bb0a736a786313a63ce.svg",
-    "main.8d0ddf3d.css.map": "/test_HB/static/css/main.8d0ddf3d.css.map",
-    "main.34d04149.js.map": "/test_HB/static/js/main.34d04149.js.map"
+    "main.d60abf90.css.map": "/test_HB/static/css/main.d60abf90.css.map",
+    "main.68e8c825.js.map": "/test_HB/static/js/main.68e8c825.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d0ddf3d.css",
-    "static/js/main.34d04149.js"
+    "static/css/main.d60abf90.css",
+    "static/js/main.68e8c825.js"
   ]
 }
