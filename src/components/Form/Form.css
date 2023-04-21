@@ -5,10 +5,6 @@ form {
     flex-direction: column;
     justify-content: space-between;
     row-gap: 32px;
-
-    -webkit-appearance: none;
-    -moz-appearance:    none;
-    appearance:         none;
 }
 
 .form-buttons {
