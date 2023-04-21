@@ -1,0 +1,23 @@
+
+.formControl {
+    background: greenyellow;
+}
+
+.select {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px; 
+    outline: 1px solid #CCCCCC;
+}
+
+.select::before {
+    border-bottom: none;
+}
+
+.select:hover {
+    /* border-bottom: none; */
+}
+
+.MuiInput-underline {
+    display: none;
+}

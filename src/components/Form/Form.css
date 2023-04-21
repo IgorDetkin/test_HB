@@ -1,8 +1,13 @@
 form {
     padding: 96px 98px 92px;
     display: flex;
-    height: 100%;
+    /* height: 100vh; */
     flex-direction: column;
     justify-content: space-between;
     row-gap: 32px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
 }
