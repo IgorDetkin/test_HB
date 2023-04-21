@@ -19,8 +19,6 @@ function Form() {
 
     
     
-    // const [valid, setValid] = useState(false);
-
    
 
 
@@ -67,6 +65,7 @@ function Form() {
             radioSelection: "none", 
             dropdownSelect: 'none',
         });
+        setIsvalid(false);
         
     }
 
@@ -95,14 +94,18 @@ function Form() {
         visibleHandler(event);
     }
 
+    const [isvalid, setIsvalid] = useState(false);
 
+    const validHandler = (event) => {
+        if(event.target.value === '') {
+            setIsvalid(false);
+        }
 
-    // const textInputHandler = (event) => {
-    //     // console.log(event.target.value);
+        else {
+            setIsvalid(true);
+        }
+    }
 
-    //     event.preventDefault();
-    //     setPost({...post, name: event.target.value})
-    // }
 
     
 
@@ -112,30 +115,32 @@ function Form() {
         <Input
             label="Username"
             value={post.name || ''}
-            onChange = {event => setPost({...post, name: event.target.value})}
-            // onChange={textInputHandler}
-            type="text" 
+            onChange = {event => {
+                validHandler(event);
+                setPost({...post, name: event.target.value})
+                }
+            }
+            type="text"
             placeholder="Enter username"
-            // checkValid={checkValid}
-            // valid={valid}
+            // checkvalid={isvalid}
         />
 
         <Input
             label="Password"
             value={post.password || ''}
             onChange = {event => setPost({...post, password: event.target.value})}
-            // onChange={textInputHandler}
             type="password" 
             placeholder="Enter password"
+            // checkvalid={isvalid}
         />
 
         <Input
             label="Write your message"
             value={post.text || ''}
             onChange = {event => setPost({...post, text: event.target.value})}
-            // onChange={textInputHandler}
             type="text" 
             placeholder="Write here, right now"
+            // checkvalid={isvalid}
         />
 
         <Checkbox
@@ -201,7 +206,7 @@ function Form() {
             </Button>
 
             <Button
-                // disabled
+                // disabled={!isvalid}
                 style={{color: "#fff", background: "#7A5CFA"}}
                 onClick={postForm}
             >Next

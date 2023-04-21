@@ -57,7 +57,7 @@
 
 
 .input__sub-message {
-    /* visibility: hidden; */
+    visibility: hidden;
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: 400;
@@ -67,5 +67,6 @@
 }
 
 .input__sub-message_error {
+    visibility: visible;
     color: red;
 }

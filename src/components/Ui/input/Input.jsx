@@ -15,7 +15,7 @@ function Input(props) {
   //   }
   // }
 
-  // const errorValidClassName = (`input__sub-message ${valid ? 'input__sub-message' : 'input__sub-message_error'}`) 
+  const errorValidClassName = (`input__sub-message ${props.checkvalid === true ? 'input__sub-message' : 'input__sub-message_error'}`);
 
 
   return (
@@ -25,9 +25,9 @@ function Input(props) {
         <input className="input__field" {...props}
         />
         {/* <span 
-          onChange={huiblya}
+          // onChange={props.checkValid}
           className={errorValidClassName} 
-        >Your password is between 4 and 12 characters
+        >Заполните поле
         </span> */}
     </label>
     </>
