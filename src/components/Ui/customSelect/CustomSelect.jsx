@@ -4,6 +4,7 @@ import './CustomSelect.css'
 function CustomSelect(props) {
     
     const visibleSelectClassname = (`select__list ${!props.isVisibleSelect ? 'select__list' : 'select__list_visible'}`);
+    const arrowDirectionClassname = (`select__button ${!props.isVisibleSelect ? 'select__button' : 'select__button_open'}`);
 
     // function getNewSelectTitle(event) {
     //     event.preventDefault();
@@ -18,7 +19,7 @@ function CustomSelect(props) {
         <p className="select__name">{props.label}</p>
         <button 
             type='button' 
-            className="select__button"
+            className={arrowDirectionClassname}
             onClick={props.onClick}
         >{props.title}</button>
         <ul className={visibleSelectClassname} onClick={props.onChange}>

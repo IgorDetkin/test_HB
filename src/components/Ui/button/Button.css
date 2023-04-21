@@ -1,4 +1,4 @@
-button {
+.button {
     width: 172px;
     height: 56px;
     border-radius: 8px;
@@ -10,11 +10,17 @@ button {
     line-height: 24px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.button:hover {
+    font-size: 20px;
 }
 
 
 @media all and (min-width: 320px) and (max-width: 550px) {
-    button {
+    .button {
         width: 100%;
     }
 }

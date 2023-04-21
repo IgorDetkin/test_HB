@@ -13,7 +13,7 @@ function Radio(props) {
         //             />
         //             <p className="radio__name">{radiobtn.name}</p>
         //         </div>
-        //     )}
+        //     )} 
         // </label>
 
 

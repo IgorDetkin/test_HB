@@ -5,17 +5,45 @@
 .toggle__switcher {
     width: 49px;
     height: 24px;
+    border: 1px solid #CCCCCC;
+    border-radius: 32px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../../../images/toggle\ -on.svg');
+    background-color: #7A5CFA;
+    position: relative;
 }
+
 
 .toggle__switcher_deactive {
-    background-image: url('../../../images/toggle\ -off.svg');
+    background-color: #fff;
 }
 
+.toggle__shape-round {
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    border-radius: 32px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    /* right: auto; */
+    transform: translateY(-50%);
+    transition: all 0.5s;
+}
+
+
+.toggle__shape-round_deactive {
+    background-color: #F4F4F4;
+    /* right: 4px; */
+    left: 28px;
+}
+
+
+
 .toggle__field {
-    opacity: 0;
+    opacity: 0; 
 }
 
 .toggle__name {

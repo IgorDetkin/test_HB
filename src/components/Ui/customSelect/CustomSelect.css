@@ -54,7 +54,13 @@
     background-position: center;
     background-repeat: no-repeat;
     pointer-events: none;
+    transition: all 0.5s;
 }
+
+.select__button_open::after {
+    transform: translateY(-50%) rotate(-360deg);
+}
+
 
 .select__list {
     display: none;
